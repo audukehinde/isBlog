@@ -257,6 +257,57 @@ footer p {
   font-weight: bolder;
 }
 
+aside h3 {
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+aside h2 {
+  font-size: 15px;
+  color: #f00b16;
+}
+
+aside p {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+.aside-content {
+  margin-bottom: 1rem;
+}
+
+.aside-content p {
+  line-height: 1.7;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 0; 
+}
+
+.first-name, textarea {
+  width: 600px;
+  font-size: 20px;
+  margin-bottom: 1rem;
+  padding: 0.4rem;
+}
+
+input, textarea {
+  outline: none;
+}
+
+.form-section h3 {
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+.post-time {
+  color: #f00b16;
+}
+
 @media (max-width: 992px) {
   .navbar {
     flex-direction: column;
