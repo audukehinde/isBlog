@@ -256,3 +256,125 @@ footer p {
   color: #14010c;
   font-weight: bolder;
 }
+
+@media (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .first-nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .design-content {
+    cursor: unset;
+    margin: 1.5rem;
+  }
+
+  h1 {
+    font-size: 40px;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .post-container, .blog-post {
+    margin: unset;
+    padding: unset;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-container {
+    display: unset;
+    max-width: 1200px;
+  }
+
+  .aside-content, .post-content {
+    padding: 1rem;
+  }
+
+  .blog-post-img {
+    width: 100%;
+    padding: 1rem;
+  }
+
+}
+
+@media (max-width: 574px) {
+  .btn-toggle {
+    display: initial;
+    font-size: 22px;
+  }
+
+  .main-nav .nav-link {
+    display: block;
+    text-align: center;
+  }
+
+  .search-box {
+    border-right: none;
+  }
+
+  .main-nav {
+    max-height: 0;
+    overflow: hidden;
+    padding-top: unset;
+    padding-bottom: unset;
+    transition: all 0.8s cubic-bezier(0.51, -0.15, 0, 0.98);
+  }
+
+  .collapse-toggle {
+    max-height: 500px;
+  }
+
+  .post-container, .blog-post {
+    margin: unset;
+    padding: unset;
+    display: block;
+  }
+
+  .main-container {
+    display: unset;
+    padding: 4rem;
+  }
+
+  .first-name, textarea {
+    width: 100%;
+  }
+  
+  input, textarea {
+    outline: none;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .img-fluid {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 0.5rem; 
+  }
+
+  aside h3{
+    text-align: center;
+  }
+
+  .aside-content, .post-content {
+    padding: 1rem;
+  }
+
+  .blog-post-title h1{
+    font-size: 30px;
+  }
+
+  .blog-post-img {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .form-section h3 {
+    font-size: 20px;
+  }
+}
