@@ -215,3 +215,44 @@ img {
 .post-border {
   border-bottom: 1px solid gray;
 }
+
+footer {
+  text-align: center;
+  background-color: #14010c;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.footer-link {
+  font-size: 23px;
+  padding-left: 25px;
+}
+
+footer p {
+  padding: unset;
+  font-size: unset;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.btn-more {
+  background-color: #14010c;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  padding: 10px 15px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.btn-more:hover {
+  background-color: #f15bb5;
+  color: #14010c;
+  font-weight: bolder;
+}
