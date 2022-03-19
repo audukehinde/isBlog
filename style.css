@@ -118,7 +118,7 @@ img {
   font-size: 20px;
 }
 
-.design-content {
+.card {
   cursor: pointer;
   margin: 1.5rem;
 }
@@ -141,7 +141,7 @@ img {
   transition: all 0.5s ease;
 }
 
-.design-content:hover img {
+.card:hover img {
   transform: scale(1.2);
 }
 
@@ -317,7 +317,7 @@ input, textarea {
     padding-bottom: 20px;
   }
 
-  .design-content {
+  .card {
     cursor: unset;
     margin: 1.5rem;
   }
