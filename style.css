@@ -1,4 +1,5 @@
 @import url("header.css");
+@import url("footer.css");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap");
 
 * {
@@ -168,31 +169,6 @@ img {
 
 .post-border {
   border-bottom: 1px solid gray;
-}
-
-footer {
-  text-align: center;
-  background-color: #14010c;
-}
-
-.footer-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  align-self: center;
-}
-
-.footer-link {
-  font-size: 23px;
-  padding-left: 25px;
-}
-
-footer p {
-  padding: unset;
-  font-size: unset;
-  font-family: sans-serif;
-  color: #fff;
 }
 
 .btn-more {
