@@ -1,6 +1,7 @@
 @import url("header.css");
 @import url("footer.css");
 @import url("form.css");
+@import url("aside.css");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap");
 
 * {
@@ -188,30 +189,6 @@ img {
   font-weight: bolder;
 }
 
-aside h3 {
-  padding-bottom: 1rem;
-  margin-top: 2rem;
-}
-
-aside h2 {
-  font-size: 15px;
-  color: #f00b16;
-}
-
-aside p {
-  padding: 0;
-  margin: 0;
-  font-size: 15px;
-}
-
-.aside-content {
-  margin-bottom: 1rem;
-}
-
-.aside-content p {
-  line-height: 1.7;
-}
-
 .post-time {
   color: #f00b16;
 }
@@ -224,8 +201,6 @@ aside p {
 .author h2 {
   color: #f00b16;
 }
-
-
 
 .about, .name {
   margin-bottom: 0.5rem;

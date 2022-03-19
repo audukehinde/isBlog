@@ -1,0 +1,23 @@
+aside h3 {
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+aside h2 {
+  font-size: 15px;
+  color: #f00b16;
+}
+
+aside p {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+.aside-content {
+  margin-bottom: 1rem;
+}
+
+.aside-content p {
+  line-height: 1.7;
+}
