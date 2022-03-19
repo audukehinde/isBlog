@@ -308,6 +308,36 @@ input, textarea {
   color: #f00b16;
 }
 
+.author {
+  margin: 2rem;
+  display: flex;
+}
+
+.author h2 {
+  color: #f00b16;
+}
+
+
+
+.about, .name {
+  margin-bottom: 0.5rem;
+}
+
+.avatar {
+  width: 10%;
+  height: 10%;
+  margin-right: 2rem;
+}
+
+.avatar img {
+  border-radius: 25%;
+}
+
+.deco {
+  font-weight: bold;
+  color: #f00b16;
+}
+
 @media (max-width: 992px) {
   .navbar {
     flex-direction: column;
@@ -347,6 +377,16 @@ input, textarea {
   .blog-post-img {
     width: 100%;
     padding: 1rem;
+  }
+
+  .avatar {
+    width: 20%;
+    height: 20%;
+    margin-right: 2rem;
+  }
+
+  aside h3{
+    margin: 1rem;
   }
 
 }
@@ -427,5 +467,11 @@ input, textarea {
 
   .form-section h3 {
     font-size: 20px;
+  }
+
+  .avatar {
+    width: 40%;
+    height: 75%;
+    margin-right: 2rem;
   }
 }
