@@ -68,6 +68,12 @@ img {
   font-size: 3rem;
   font-weight: 900;
   font-family: "DM Sans", sans-serif;
+  color: #f00b16;
+}
+
+figcaption {
+  font-size: 12px;
+  color: #f00b16;
 }
 
 .title p {
