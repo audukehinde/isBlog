@@ -82,6 +82,12 @@ figcaption {
   font-size: 20px;
 }
 
+blockquote {
+  margin-top: 1.5rem;
+  letter-spacing: 2px;
+  color: #f00b16;
+}
+
 .card {
   cursor: pointer;
   margin: 1.5rem;
